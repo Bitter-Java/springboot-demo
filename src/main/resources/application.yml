@@ -1,0 +1,9 @@
+server:
+  address: 0.0.0.0
+  port: 8081
+  undertow:
+    threads:
+      io: 4
+      worker: 20
+    direct-buffers: true
+    buffer-size: 1024
